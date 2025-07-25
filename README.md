@@ -21,7 +21,7 @@ This project recommends movies that are similar to a movie selected by the user.
 4. **Similarity Computation:** Use **cosine similarity** to find similar movies.
 5. **Recommendation:** Return top 5 or 10 similar movies based on the cosine similarity score.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python
 - Pandas, NumPy
