@@ -20,7 +20,7 @@ def recommend(movie):
    rec = []
    rec2 = []
    for i in distance[1:6]:
-        movies_id = model.iloc[i[0]].id  # or model.iloc[i[0]]['id']
+        movies_id = model.iloc[i[0]].id
         rec.append(model.iloc[i[0]].title)
         rec2.append(fetch_poster(movies_id))
    return rec, rec2
